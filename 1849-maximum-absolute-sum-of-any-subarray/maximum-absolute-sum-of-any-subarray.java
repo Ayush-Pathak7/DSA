@@ -22,4 +22,16 @@ class Solution {
         return Math.max(Math.abs(ans),Math.abs(res));
         
     }
+    /*public int maxSumAbs(int []nums){
+        int prefixSum = 0;
+        int maxPrefix = 0;
+        int minPrefix = 0;
+
+        for(int num : nums){
+            prefixSum = prefixSum + num;
+            maxPrefix = Math.max(maxPrefix,prefixSum);
+            minPrefix = Math.min(minPrefix,PrefixSum);
+        }
+        return maxPrefix - minPrefix;
+    }*/
 }
